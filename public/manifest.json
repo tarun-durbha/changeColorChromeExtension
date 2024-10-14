@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "React Background Color Changer",
+    "version": "1.0",
+    "description": "Change background color by clicking a button.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "32": "icon32.png"
+      }
+    },
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  
